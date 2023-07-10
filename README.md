@@ -16,3 +16,14 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## The Coding Challenge
+
+1. Please read the instructions on Vue-Challenge.pdf.txt
+
+2. Here's a sample regex for validating email:
+``` bash
+^[^\s@]+@[^\s@]+\.[^\s@]+$/
+```
+
+I didn't include this since jsonforms has similar one already.

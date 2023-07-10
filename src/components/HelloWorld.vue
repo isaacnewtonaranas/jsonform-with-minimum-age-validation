@@ -68,9 +68,6 @@ const onChange = async (event: JsonFormsChangeEvent) => {
   jsonFormsErrors.value = []
   jsonFormsErrors.value = event.errors?.concat(minYearsErrors) || []
 }
-
-// here's a sample regex for validating email: ^[^\s@]+@[^\s@]+\.[^\s@]+$/
-// I didn't include this as jsonforms has similar one already.
 </script>
 <style>
 .jsonform {

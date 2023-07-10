@@ -1,0 +1,26 @@
+Challenge
+Create a simple profile form that consists of: 
+• First Name 
+• Last Name
+• Birthday
+• Email
+• Next button at the bottom
+Acceptance criteria
+1. Should use JSONForms (https://jsonforms.io/)
+2. Should use Vite, Vue3 and Typescript
+3. Should validate the email using a regular expression
+4. Add JSONForms rule that if the age is above 18 years, the email field will be shown. 
+Email should not shown at first load.
+5. The next button should be enabled when the age is 18yrs also
+6. Replace the standard input control and use Kendo Vue UI Trial Version input control 
+inside the JSONForms form
+Bonus points if your code is:
+• Simple & easy to understand (even for junior developers)
+• Easily testable, or at least has the potential to be a testable code
+• Safe code or safety measures are in place (i.e., should not get runtime or other 
+errors in case of invalid inputs or other boundary conditions)
+Instructions
+• Keep the source code in your (personal) GitHub repository and post us the link with 
+your response
+• If you are selected for the next round based on your response to the challenge 
+problem, we will ask you to demo the solution and to explain the source code briefly
