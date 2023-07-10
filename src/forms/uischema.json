@@ -1,0 +1,50 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/firstName",
+      "label": "First Name",
+      "errorMessages": {
+        "required": "Please enter your first name",
+        "minLength": "First name should have a minimum length of 1"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/lastName",
+      "label": "Last Name",
+      "errorMessages": {
+        "required": "Please enter your last name",
+        "minLength": "Last name should have a minimum length of 1"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/birthDate",
+      "label": "Birth Date",
+      "errorMessages": {
+        "required": "Please enter your birth date",
+        "minYears": "Minimum age requirement of 18 years not met."
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/email",
+      "label": "Email",
+      "errorMessages": {
+        "required": "Please enter your email address",
+        "format": "Invalid email address"
+      },
+      "rule": {
+        "effect": "SHOW",
+        "condition": {
+          "scope": "#/properties/birthDate",
+          "schema": {
+            "minYears": "18"
+          }
+        }
+      }
+    }
+  ]
+}

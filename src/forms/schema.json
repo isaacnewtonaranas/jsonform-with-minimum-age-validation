@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Please enter your first name"
+    },
+    "lastName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Please enter your last name"
+    },
+    "birthDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Please enter your birth date"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Please enter your email address"
+    }
+  },
+  "required": ["firstName", "lastName", "birthDate", "email"]
+}
